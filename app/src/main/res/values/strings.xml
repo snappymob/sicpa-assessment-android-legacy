@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NYTArticles</string>
+
+    <string name="mainFragmentTitle">NYT</string>
+    <string name="searchFragmentTitle">Search</string>
+    <string name="articlesFragmentTitle">Articles</string>
+
+    <string name="search">Search</string>
+    <string name="search_articles">Search Articles</string>
+
+    <string name="popular">Popular</string>
+    <string name="most_viewed">Most Viewed</string>
+    <string name="most_shared">Most Shared</string>
+    <string name="most_emailed">Most Emailed</string>
+
+    <string name="empty" />
+    <string name="error_prompt">An Error Occurred</string>
+    <string name="search_articles_hint">Search articles here</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.nytarticles.ui.main.MainFragment"
+        android:label="@string/mainFragmentTitle">
+        <action
+            android:id="@+id/action_mainFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_articlesFragment"
+            app:destination="@id/articlesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.nytarticles.ui.search.SearchFragment"
+        android:label="@string/searchFragmentTitle">
+        <action
+            android:id="@+id/action_searchFragment_to_articlesFragment"
+            app:destination="@id/articlesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/articlesFragment"
+        android:name="com.example.nytarticles.ui.articles.ArticlesFragment"
+        android:label="@string/articlesFragmentTitle" >
+        <argument
+            android:name="articleFragmentArgument"
+            app:argType="com.example.nytarticles.models.ArticlePageArgument" />
+    </fragment>
+
+</navigation>
