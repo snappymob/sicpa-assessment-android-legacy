@@ -1,9 +1,1 @@
-# sicpa-assessment-android
-
-Android 
-- MVVM
-- Hilt - DI
-- Kotlin Flow - 
-- Navigation Component
-- Retrofit
-- Mockito
+# Android app for SICPA assessment
